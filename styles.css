@@ -1,23 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body {
-background-color: #000000
-
 }
 
+
+
+
+.button {
+
+}
 
 header {
-font-family: 'Bebas Neue', cursive;
-margin: 17px auto;
-max-width: 96%;
-display: -webkit-flex;
-display: -ms-flex;
-display: flex;
--ms-align-items: center;
-align-items: center;
-}
 
-.background-pic {
-margin-left: 890px;
-margin-right: 30px;
-margin-top: 140px;
-margin-bottom: 61px;
 }
