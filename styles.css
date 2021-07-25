@@ -44,19 +44,18 @@ main{
   display: flex;
   width: auto;
   margin-top: 50px;
-  margin-left: 35px;
-  margin-right: 35px;
+  margin-left: 25px;
+  margin-right: 25px;
   justify-content: center;
 }
 
 section{
-  background-image: url('img/rectangle.png');
+  background-color: #C4C4C4;
   width: 420px;
   height: 536px;
-  padding-bottom: 64px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background-repeat: no-repeat;
+  margin-left: 24px;
+  margin-right: 24px;
+  border-radius: 50px;
 }
 
 .grow {
@@ -73,7 +72,18 @@ section{
 
  .section-image{
    padding-top: 48px;
-   padding-left: auto;
-   padding-right: auto;
+   padding-bottom: 409px;
+   padding-left: 161px;
+   padding-right: 161px;
 
+ }
+
+ h3{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+
+  color: #000000;
  }
