@@ -44,18 +44,18 @@ main{
   display: flex;
   width: auto;
   margin-top: 50px;
+  margin-left: 35px;
+  margin-right: 35px;
   justify-content: center;
-  justify-content: space-between;
-  justify-content: space-around;
-
 }
 
 section{
-  background-image: url('img/rectangle_small.png');
+  background-image: url('img/rectangle.png');
   width: 420px;
   height: 536px;
   padding-bottom: 64px;
-
+  padding-left: 30px;
+  padding-right; 30px;
   background-repeat: no-repeat;
 }
 
