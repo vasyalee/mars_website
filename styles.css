@@ -1,1 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html {
+font-family: 'Bebas Neue';
+
+}
+
+body {
+background-image: url('img/background.png');
+background-repeat: no-repeat;
+background-size: 100% auto;
+
+
+}
+
+
+h1 {
+  display: block;
+  align-items: center;
+
+}
+
+p {
+  display: block;
+  align-items: center;
+
+}
