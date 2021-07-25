@@ -55,7 +55,7 @@ section{
   height: 536px;
   padding-bottom: 64px;
   padding-left: 30px;
-  padding-right; 30px;
+  padding-right: 30px;
   background-repeat: no-repeat;
 }
 
@@ -69,4 +69,11 @@ section{
  -webkit-transform: scale(1.1);
  -moz-transform: scale(1.1);
  -o-transform: scale(1.1);
+ }
+
+ .section-image{
+   padding-top: 48px;
+   padding-left: auto;
+   padding-right: auto;
+
  }
