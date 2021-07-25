@@ -87,3 +87,14 @@ section{
 
   color: #000000;
  }
+
+.section-text-block{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+
+  color: #202020;
+
+}
