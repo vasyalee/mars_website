@@ -50,6 +50,15 @@ main{
   flex-wrap: wrap;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+
+}
+
 section{
   background-color: #C4C4C4;
   width: 420px;
@@ -58,6 +67,10 @@ section{
   margin-right: 24px;
   border-radius: 50px;
   position: relative;
+}
+
+.about-us-section-image{
+  margin-top: 16px;
 }
 
 .grow {
@@ -72,13 +85,6 @@ section{
  -o-transform: scale(1.2);
  }
 
- .section-image{
-   /* padding-top: 48px;
-   padding-bottom: 10px;
-   padding-left: 161px;
-   padding-right: 161px; */
-
- }
  .map-image-section-container{
    min-height: 171.4px;
    display: flex;
