@@ -9,6 +9,22 @@ header{
 
 body {
   margin: 0;
+  background: #000000;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+
+}
+
+.about-us-wrapper {
+  display: flex;
+  justify-content: center;
+
 }
 
 .logo-pic{
@@ -42,4 +58,24 @@ body {
   line-height: 40px;
   color: #FFFFFF;
   margin: 0;
+}
+
+.about-us-title{
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 120px;
+  line-height: 120px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.about-us-text{
+  width: 1305px;
+  height: 1010px;
+  background: #D2D2D2;
+  border-radius: 50px;
+  margin-top: 57px;
+
 }
