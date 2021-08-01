@@ -167,9 +167,15 @@ section{
  }
 
 .grow:hover {
- -webkit-transform: scale(1.2);
- -moz-transform: scale(1.2);
- -o-transform: scale(1.2);
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ }
+
+ .grow-default{
+   -webkit-transform: scale(1.08);
+   -moz-transform: scale(1.08);
+   -o-transform: scale(1.08);
  }
 
  .map-image-section-container{
