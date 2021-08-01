@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-html {
-font-family: 'Bebas Neue', cursive;
-
-}
 
 body {
-background-image: url('img/background.png');
-background-repeat: no-repeat;
-background-size: 100% auto;
+  font-family: 'Bebas Neue', cursive;
+  font-style: normal;
+  font-weight: normal;
+  background: #000000;
+  background-image: url('img/background.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 
 
 }
 
+
+/* Переключатель языка */
 .lang-toggle-container{
   min-height: 83px;
   position: relative;
@@ -26,15 +28,10 @@ background-size: 100% auto;
   right: 73px;
 }
 
-
-.switch-label-text{
-  font-family: Bebas Neue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  color: #C4C4C4;
-  width: 51px;
-  height: 43px;
+.switch-label-text-container{
+  display: inline-block;
+  margin-left: 1215px;
+  margin-top: 35px;
 }
 
 .switch input {
@@ -75,7 +72,6 @@ background-size: 100% auto;
   transition: .4s;
 }
 
-
 input:focus + .slider {
   box-shadow: 0 0 1px #2196F3;
 }
@@ -96,6 +92,15 @@ input:checked + .slider:before {
   border-radius: 50%;
 } */
 
+/* .russian {
+  font-size: 40px;
+  color: #C4C4C4;
+  width: 51px;
+  height: 43px;
+} */
+
+/* Заголовок сайта */
+
 .first-page-header {
   position: relative;
 
@@ -107,15 +112,12 @@ input:checked + .slider:before {
 
 .header-title {
   color: #FFFFFF;
-  font-style: normal;
   font-size: 120px;
   line-height: 120px;
 
 }
 
 .header-paragraph {
-  font-style: normal;
-  font-weight: normal;
   font-size: 50px;
   line-height: 60px;
   color: #C4C4C4;
@@ -123,6 +125,8 @@ input:checked + .slider:before {
 }
 
 
+
+/* Основная часть с секциями */
 main{
   display: flex;
   width: auto;
@@ -186,26 +190,22 @@ section{
  }
 
  h2{
-  font-style: normal;
   font-weight: bold;
   font-size: 50px;
   line-height: 50px;
   text-align: center;
   margin-top: 0px;
-
   color: #000000;
  }
 
 .section-text-block{
-  font-style: normal;
-  font-weight: normal;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
-
   color: #202020;
 
 }
+/* Ссылки на другие страницы сайта */
 
  .rectangle {
     display: block;
