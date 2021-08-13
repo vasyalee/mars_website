@@ -12,6 +12,9 @@ header {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 body {
@@ -34,6 +37,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .logo-pic {
@@ -85,7 +94,30 @@ body {
 .about-us-text {
   width: 1305px;
   height: 1010px;
-  background: #D2D2D2;
+  background: #C4C4C4;
   border-radius: 50px;
   margin-top: 57px;
+}
+
+.header-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 25px;
+}
+
+.menu-btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-btn {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #C4C4C4;
 }
