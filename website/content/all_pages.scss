@@ -119,3 +119,20 @@ body {
   background-color: $grey_bkgnd;
   border: 3px solid $bkgnd;
 }
+
+.language-toggle-container {
+  display: flex;
+  justify-content: center;
+  margin-right: 25px;
+}
+.language-toggle-link {
+  font-size: 46px;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.lan_link {
+  margin-top: 30px;
+  margin-right: 15px;
+}
